@@ -50,6 +50,52 @@ The system was created to improve **user experience**, reduce **human errors in 
 
 ---
 
+# 🛠️ Technology Stack
+
+## 🔍 OCR (Optical Character Recognition) – *No Dataset Required*
+💡 Enables **“scan once, auto-fill all”** for owner + vehicle forms.
+
+- **Tesseract OCR** – extracts text from road tax and insurance documents.  
+- **OpenCV** – preprocessing (cropping, noise removal, contrast, skew correction) ensures higher OCR accuracy.  
+
+---
+
+## ✨ Typo Detection & Auto-Correction (Car Dataset)
+Dataset: [Cars Dataset 2025 (Kaggle)](https://www.kaggle.com/datasets/abdulmalik1518/cars-datasets-2025)  
+
+💡 Real-time validation that feels like **“spellcheck for cars.”**
+
+- **Python NLP (SpaCy / NLTK)** – tokenization + entity recognition.  
+- **Fuzzy Matching Algorithms** – Levenshtein / Damerau-Levenshtein distance to catch and correct spelling mistakes (*Toyta → Toyota*).  
+
+---
+
+## 🚗 Auto Suggestions
+💡 Guarantees every suggestion matches **real vehicles** — no invalid entries.  
+
+- **Firebase Firestore Database** – stores official, verified vehicle data (make, model, trim, year, cc).  
+- **APIs**:  
+  - **JPJ API** – license plate number verification.  
+  - **Global OEM datasets** – engine specs, trims, and variants cross-check.  
+
+---
+
+## 🎙️ Voice Input
+- **Google Speech-to-Text API** – converts spoken model/year into structured fields, e.g.  
+  *“Myvi 1.5 SE 2019”* → auto-filled form fields.  
+
+---
+
+## 📱 Frontend
+- **Flutter** – cross-platform mobile app (iOS + Android) with smooth forms and real-time validation UI.  
+
+---
+
+## ⚙️ Backend
+- **Python (FastAPI / Flask)** – REST APIs for validation, typo correction, OCR integration, and database lookups.  
+
+---
+
 ## 🔗 Links
 - **Presentation:** https://youtu.be/eM9kES2IBTU
 - **Figma Prototype:** https://www.figma.com/design/aO6Q7QKgqZYyIEvbsYNqIE/Smart-Vehicle-Validation---Error-Detection-Prototype?node-id=0-1&t=ALrgbnwKEXWawVOU-1
