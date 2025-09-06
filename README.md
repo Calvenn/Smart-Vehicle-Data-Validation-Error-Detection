@@ -52,7 +52,7 @@ The system was created to improve **user experience**, reduce **human errors in 
 
 # 🛠️ Technology Stack
 
-## 🔍 OCR (Optical Character Recognition) – *No Dataset Required*
+## 🔍 OCR (Optical Character Recognition)
 💡 Enables **“scan once, auto-fill all”** for owner + vehicle forms.
 
 - **Tesseract OCR** – extracts text from road tax and insurance documents.  
@@ -73,9 +73,8 @@ Dataset: [Cars Dataset 2025 (Kaggle)](https://www.kaggle.com/datasets/abdulmalik
 ## 🚗 Auto Suggestions
 💡 Guarantees every suggestion matches **real vehicles** — no invalid entries.  
 
-- **Firebase Firestore Database** – stores official, verified vehicle data (make, model, trim, year, cc).  
-- **APIs**:  
-  - **JPJ API** – license plate number verification.  
+- **Firebase Firestore Database** – stores official, verified vehicle data (make, model, trim, year, cc)
+  - **JPJ Database (Mock)** – license plate number verification.  
   - **Global OEM datasets** – engine specs, trims, and variants cross-check.  
 
 ---
