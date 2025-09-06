@@ -97,5 +97,5 @@ Dataset: [Cars Dataset 2025 (Kaggle)](https://www.kaggle.com/datasets/abdulmalik
 ---
 
 ## 🔗 Links
-- **Presentation:** https://youtu.be/eM9kES2IBTU
+- **Pitching Video:** https://youtu.be/eM9kES2IBTU
 - **Figma Prototype:** https://www.figma.com/design/aO6Q7QKgqZYyIEvbsYNqIE/Smart-Vehicle-Validation---Error-Detection-Prototype?node-id=0-1&t=ALrgbnwKEXWawVOU-1
