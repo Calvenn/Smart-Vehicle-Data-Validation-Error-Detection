@@ -52,4 +52,4 @@ The system was created to improve **user experience**, reduce **human errors in 
 
 ## 🔗 Links
 - **Presentation:** https://youtu.be/eM9kES2IBTU
-- **Figma Prototype:** https://www.figma.com/proto/1XD5D0MN6WdNog8GW2vUR6/CodeNection-Draft?node-id=0-1&t=XXZsjgOJlOjVIMO1-1
+- **Figma Prototype:** https://www.figma.com/design/1XD5D0MN6WdNog8GW2vUR6/CodeNection-Draft?node-id=0-1&t=XXZsjgOJlOjVIMO1-1
