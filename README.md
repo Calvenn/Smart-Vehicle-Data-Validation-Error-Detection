@@ -1,5 +1,5 @@
 # Problem Statement: Smart Vehicle Data Validation & Error Detection by BJAK  
-## Industry Collaboration
+## Industry Collaboration (Track 3)
 
 ## Overview
 This prototype demonstrates a **digital insurance quoting system** designed for both **car** and **motorcycle** insurance. The flow guides users from selecting their insurance type, entering details, validating vehicle information, and finally receiving an estimated insurance price with optional add-ons.  
@@ -18,7 +18,7 @@ The system was created to improve **user experience**, reduce **human errors in 
 - **Vehicle Details & Validation**  
   - Plate number entry with validation checks.  
   - Model, make, engine, and year inputs.  
-  - **Auto-fill vehicle details** if found in a mock JPJ (Road Transport Department) database.  
+  - **Auto-fill vehicle details** if found in a mock JPJ database.  
   - Real-time error detection for incorrect or missing information.  
   - Smart validation that auto-detects and confirms the vehicle type.  
   - Engine number, chassis number, and usage details captured.  
