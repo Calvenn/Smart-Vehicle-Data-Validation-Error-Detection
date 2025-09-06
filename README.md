@@ -1,10 +1,10 @@
-# Problem Statement: Smart Vehicle Data Validation & Error Detection by BJAK 
+# Problem Statement: Smart Vehicle Data Validation & Error Detection by BJAK  
 ## Industry Collaboration
 
 ## Overview
 This prototype demonstrates a **digital insurance quoting system** designed for both **car** and **motorcycle** insurance. The flow guides users from selecting their insurance type, entering details, validating vehicle information, and finally receiving an estimated insurance price with optional add-ons.  
 
-The prototype was created to improve **user experience**, reduce **data entry errors**, and streamline the process of obtaining an insurance quote online.
+The system was created to improve **user experience**, reduce **human errors in vehicle data entry**, and streamline the process of obtaining an insurance quote online.
 
 ---
 
@@ -18,6 +18,7 @@ The prototype was created to improve **user experience**, reduce **data entry er
 - **Vehicle Details & Validation**  
   - Plate number entry with validation checks.  
   - Model, make, engine, and year inputs.  
+  - **Auto-fill vehicle details** if found in a mock JPJ (Road Transport Department) database.  
   - Real-time error detection for incorrect or missing information.  
   - Smart validation that auto-detects and confirms the vehicle type.  
   - Engine number, chassis number, and usage details captured.  
@@ -27,9 +28,9 @@ The prototype was created to improve **user experience**, reduce **data entry er
   - Green confirmation when the system successfully validates the vehicle details.  
 
 - **Insurance Quote**  
-  - Estimated insurance price is displayed clearly.  
-  - Users can review their quote before purchase.  
-  - Add-ons like **Personal Accident** or **Roadside Assistance** are available.  
+  - Displays an **estimated insurance price** clearly.  
+  - Allows users to review their quote before purchase.  
+  - Optional add-ons such as **Personal Accident** and **Roadside Assistance**.  
 
 - **Call-to-Action**  
   - **Buy Now** button for direct purchase.  
@@ -47,4 +48,4 @@ The prototype was created to improve **user experience**, reduce **data entry er
 7. **Estimated Price & Add-ons** – Choose additional coverage options.  
 8. **Checkout Options** – Proceed with purchase or consult an agent.  
 
----
+
