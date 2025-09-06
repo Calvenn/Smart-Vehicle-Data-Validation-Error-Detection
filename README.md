@@ -1,14 +1,14 @@
 # Problem Statement: Smart Vehicle Data Validation & Error Detection by BJAK  
 ## Industry Collaboration (Track 3)
 
-## Overview
+## 📌 Overview
 This prototype demonstrates a **digital insurance quoting system** designed for both **car** and **motorcycle** insurance. The flow guides users from selecting their insurance type, entering details, validating vehicle information, and finally receiving an estimated insurance price with optional add-ons.  
 
 The system was created to improve **user experience**, reduce **human errors in vehicle data entry**, and streamline the process of obtaining an insurance quote online.
 
 ---
 
-## Key Features
+## 🎯 Key Features
 - **Insurance Type Selection**  
   Users can choose between **Car** or **Motor** insurance.  
 
@@ -38,7 +38,7 @@ The system was created to improve **user experience**, reduce **human errors in 
 
 ---
 
-## Prototype Flow
+## 🖼️ Prototype Flow
 1. **Get Quote Page** – Choose between Car or Motor insurance.  
 2. **Car Insurance Start** – Option to scan documents or enter details manually.  
 3. **Owner Details** – Fill in personal information.  
@@ -48,4 +48,8 @@ The system was created to improve **user experience**, reduce **human errors in 
 7. **Estimated Price & Add-ons** – Choose additional coverage options.  
 8. **Checkout Options** – Proceed with purchase or consult an agent.  
 
+---
 
+## 🔗 Links
+- **Presentation:** https://youtu.be/eM9kES2IBTU
+- **Figma Prototype:** https://www.figma.com/proto/1XD5D0MN6WdNog8GW2vUR6/CodeNection-Draft?node-id=0-1&t=XXZsjgOJlOjVIMO1-1
