@@ -60,12 +60,12 @@ The system was created to improve **user experience**, reduce **human errors in 
 
 ---
 
-## ✨ Typo Detection & Auto-Correction (Car Dataset)
+## ✨ Typo Detection & Auto-Correction
 Dataset: [Cars Dataset 2025 (Kaggle)](https://www.kaggle.com/datasets/abdulmalik1518/cars-datasets-2025)  
 
 💡 Real-time validation that feels like **“spellcheck for cars.”**
 
-- **Python NLP (SpaCy / NLTK)** – tokenization + entity recognition.  
+- **Python NLP** – tokenization + entity recognition.  
 - **Fuzzy Matching Algorithms** – Levenshtein / Damerau-Levenshtein distance to catch and correct spelling mistakes (*Toyta → Toyota*).  
 
 ---
@@ -91,7 +91,7 @@ Dataset: [Cars Dataset 2025 (Kaggle)](https://www.kaggle.com/datasets/abdulmalik
 ---
 
 ## ⚙️ Backend
-- **Python (FastAPI / Flask)** – REST APIs for validation, typo correction, OCR integration, and database lookups.  
+- **Python (FastAPI)** – REST APIs for validation, typo correction, OCR integration, and database lookups.  
 
 ---
 
